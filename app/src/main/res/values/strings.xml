@@ -1,6 +1,34 @@
 <resources>
     <string name="app_name">Only player</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Settings-->
+    <string name="settings_player_mode_title">Запускать экран воспроизведения</string>
+    <string name="settings_player_mode_description">При выборе песни из списка запускать экран воспроизведения</string>
+    <string name="settings_rewind_time_title">Время перемотки</string>
+    <string name="settings_rewind_time_description">Установить велечину времени перемотки</string>
+    <string name="settings_rewind_time_dialog_title">Выберите велечину времени перемотки</string>
+    <string-array name="rewind_time_strings">
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>15 секунд</item>
+        <item>20 секунд</item>
+    </string-array>
+    <string-array name="rewind_time_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+    <string name="settings_notification_mode_title">Краткое уведомление</string>
+    <string name="settings_notification_mode_description">Отображать только краткое уведомление</string>
+    <string name="settings_headset_skip_next_mode_title">Управление гарнитурой</string>
+    <string name="settings_headset_skip_next_mode_description">Два нажатия переключает на следущий трек (три на предыдущий)</string>
+
+    <!-- Song details -->
+    <string name="song_details_title">Название песни</string>
+    <string name="song_details_artist">Исполнитель</string>
+    <string name="song_details_album">Альбом</string>
+    <string name="song_details_bitrate">Битрейт</string>
+    <string name="song_details_size">Размер файла</string>
+    <string name="song_details_path">Путь к файлу</string>
 </resources>

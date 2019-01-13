@@ -13,6 +13,16 @@
         android:layout_centerVertical="true"
         app:srcCompat="@drawable/ic_keyboard_arrow_up_white" />
 
+    <include
+        layout="@layout/item_song_info_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/iv_skip_previous"
+        android:layout_toEndOf="@+id/iv_switch"
+        android:layout_margin="@dimen/item_song_info_container_lma"/>
+
     <ImageView
         android:id="@+id/iv_skip_next"
         android:layout_width="@dimen/item_bottom_current_song_next_width"
@@ -51,36 +61,5 @@
         android:progressDrawable="@drawable/custom_seekbar"
         android:thumb="@drawable/custom_seekbar_thumb" />
 
-    <LinearLayout
-        android:id="@+id/ll_song_info_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/seekBar"
-        android:layout_margin="@dimen/item_song_list_song_info_lma"
-        android:layout_toStartOf="@+id/iv_skip_previous"
-        android:layout_toEndOf="@+id/iv_switch"
-        android:gravity="center_vertical"
-        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tv_song_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ellipsize="end"
-            android:singleLine="true"
-            android:text="Song title"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/item_song_list_song_title_size" />
-
-        <TextView
-            android:id="@+id/tv_song_artist"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ellipsize="end"
-            android:singleLine="true"
-            android:text="Artist"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/item_song_list_song_artist_size" />
-
-    </LinearLayout>
 </RelativeLayout>

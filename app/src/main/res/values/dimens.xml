@@ -8,10 +8,6 @@
     <dimen name="item_song_list_icon_lma">4dp</dimen>
     <dimen name="item_song_list_menu_lpa">4dp</dimen>
     <dimen name="item_song_list_time_lma">2dp</dimen>
-    <dimen name="item_song_list_song_info_lma">4dp</dimen>
-    <dimen name="item_song_list_song_info_lpl">12dp</dimen>
-    <dimen name="item_song_list_song_title_size">18sp</dimen>
-    <dimen name="item_song_list_song_artist_size">14sp</dimen>
     <dimen name="item_song_list_time_size">18sp</dimen>
 
     <dimen name="item_bottom_current_song_height">64dp</dimen>
@@ -24,4 +20,45 @@
     <dimen name="item_bottom_current_song_previous_width">48dp</dimen>
     <dimen name="item_bottom_current_song_icon_width">48dp</dimen>
     <dimen name="item_bottom_current_song_all_lmt">24dp</dimen>
+
+    <dimen name="item_song_info_container_lma">4dp</dimen>
+    <dimen name="item_song_info_container_lpl">12dp</dimen>
+    <dimen name="item_song_info_container_song_title_size">18sp</dimen>
+    <dimen name="item_song_info_container_song_artist_size">14sp</dimen>
+
+    <dimen name="item_notification_big_image_height">64dp</dimen>
+    <dimen name="item_notification_big_layout_height">112dp</dimen>
+    <dimen name="item_notification_big_image_width">64dp</dimen>
+    <dimen name="item_notification_big_image_lpa">4dp</dimen>
+    <dimen name="item_notification_big_close_lma">4dp</dimen>
+    <dimen name="item_notification_big_time_lma">4dp</dimen>
+    <dimen name="item_notification_big_time_text_size">16sp</dimen>
+
+    <dimen name="item_notification_small_height">48dp</dimen>
+    <dimen name="item_notification_small_lpa">4dp</dimen>
+    <dimen name="item_notification_small_fast_rewind_height">@dimen/item_notification_small_height</dimen>
+    <dimen name="item_notification_small_fast_rewind_width">@dimen/item_notification_small_height</dimen>
+    <dimen name="item_notification_small_fast_forward_height">@dimen/item_notification_small_height</dimen>
+    <dimen name="item_notification_small_fast_forward_width">@dimen/item_notification_small_height</dimen>
+    <dimen name="item_notification_small_play_height">@dimen/item_notification_small_height</dimen>
+    <dimen name="item_notification_small_play_width">@dimen/item_notification_small_height</dimen>
+    <dimen name="item_notification_small_skip_next_height">@dimen/item_notification_small_height</dimen>
+    <dimen name="item_notification_small_skip_next_width">@dimen/item_notification_small_height</dimen>
+    <dimen name="item_notification_small_skip_previous_height">@dimen/item_notification_small_height</dimen>
+    <dimen name="item_notification_small_skip_previous_width">@dimen/item_notification_small_height</dimen>
+
+    <dimen name="fragment_playback_song_controllers_height">48dp</dimen>
+    <dimen name="fragment_playback_song_play_height">@dimen/fragment_playback_song_controllers_height</dimen>
+    <dimen name="fragment_playback_song_play_width">@dimen/fragment_playback_song_controllers_height</dimen>
+    <dimen name="fragment_playback_song_skip_previous_width">@dimen/fragment_playback_song_controllers_height</dimen>
+    <dimen name="fragment_playback_song_skip_previous_height">@dimen/fragment_playback_song_controllers_height</dimen>
+    <dimen name="fragment_playback_song_skip_next_height">@dimen/fragment_playback_song_controllers_height</dimen>
+    <dimen name="fragment_playback_song_skip_next_width">@dimen/fragment_playback_song_controllers_height</dimen>
+    <dimen name="fragment_playback_song_info_width">@dimen/fragment_playback_song_controllers_height</dimen>
+    <dimen name="fragment_playback_song_info_height">@dimen/fragment_playback_song_controllers_height</dimen>
+    <dimen name="fragment_playback_song_add_playlist_height">@dimen/fragment_playback_song_controllers_height</dimen>
+    <dimen name="fragment_playback_song_add_playlist_width">@dimen/fragment_playback_song_controllers_height</dimen>
+
+
+
 </resources>

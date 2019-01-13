@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_background">
+
+    <ImageView
+        android:id="@+id/iv_album_placeholder"
+        android:layout_width="@dimen/item_notification_big_image_width"
+        android:layout_height="@dimen/item_notification_big_image_height"
+        android:padding="@dimen/item_notification_big_image_lpa"
+        app:srcCompat="@drawable/ic_music_note_white" />
+
+    <include
+        layout="@layout/item_song_info_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/item_song_info_container_lma"
+        android:layout_toStartOf="@+id/tv_time"
+        android:layout_toEndOf="@+id/iv_album_placeholder" />
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/item_notification_big_close_lma"
+        app:srcCompat="@drawable/ic_close_white" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_album_placeholder"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_margin="@dimen/item_notification_big_close_lma"
+        android:text="3:25"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/item_notification_big_time_text_size" />
+
+    <include
+        android:id="@+id/playback_controllers"
+        layout="@layout/item_notification_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_album_placeholder" />
+</RelativeLayout>

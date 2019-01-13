@@ -1,4 +1,4 @@
-package com.blind_falcon.onlyplayer.ui.flow.songdetails;
+package com.blind_falcon.onlyplayer.ui.flow.details;
 
 
 import android.os.Bundle;
@@ -9,10 +9,10 @@ import android.view.ViewGroup;
 
 import com.blind_falcon.onlyplayer.R;
 
-public class SongDetailsFlowFragment extends Fragment {
+public class DetailsFlowFragment extends Fragment {
 
 
-    public SongDetailsFlowFragment() {
+    public DetailsFlowFragment() {
     }
 
 

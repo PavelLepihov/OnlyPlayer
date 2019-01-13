@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="player_mode"
+        android:title="@string/settings_player_mode_title"
+        android:summary="@string/settings_player_mode_description" />
+
+    <ListPreference
+        android:key="rewind_time"
+        android:title="@string/settings_rewind_time_title"
+        android:summary="@string/settings_rewind_time_description"
+        android:defaultValue="1"
+        android:entries="@array/rewind_time_strings"
+        android:entryValues="@array/rewind_time_values"
+        android:dialogTitle="@string/settings_rewind_time_dialog_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="notification_mode"
+        android:title="@string/settings_notification_mode_title"
+        android:summary="@string/settings_notification_mode_description" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="headset_skip_next_mode"
+        android:title="@string/settings_headset_skip_next_mode_title"
+        android:summary="@string/settings_headset_skip_next_mode_description" />
+
+</PreferenceScreen>
