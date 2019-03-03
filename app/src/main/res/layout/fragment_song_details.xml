@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/common_background"
     tools:context=".ui.flow.details.SongDetailsFragment">
 
 
     <TextView
         android:id="@+id/tv_title"
+        style="@style/SongDetailsTitleDialogStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -19,6 +21,7 @@
 
     <TextView
         android:id="@+id/tv_title_description"
+        style="@style/SongDetailsDescriptionDialogStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -29,6 +32,7 @@
 
     <TextView
         android:id="@+id/tv_artist"
+        style="@style/SongDetailsTitleDialogStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -39,6 +43,7 @@
 
     <TextView
         android:id="@+id/tv_artist_description"
+        style="@style/SongDetailsDescriptionDialogStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -49,6 +54,7 @@
 
     <TextView
         android:id="@+id/tv_album"
+        style="@style/SongDetailsTitleDialogStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -59,6 +65,7 @@
 
     <TextView
         android:id="@+id/tv_album_description"
+        style="@style/SongDetailsDescriptionDialogStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -69,6 +76,7 @@
 
     <TextView
         android:id="@+id/tv_bitrate"
+        style="@style/SongDetailsTitleDialogStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -79,6 +87,7 @@
 
     <TextView
         android:id="@+id/tv_bitrate_description"
+        style="@style/SongDetailsDescriptionDialogStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -89,6 +98,7 @@
 
     <TextView
         android:id="@+id/tv_size"
+        style="@style/SongDetailsTitleDialogStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -99,6 +109,7 @@
 
     <TextView
         android:id="@+id/tv_size_description"
+        style="@style/SongDetailsDescriptionDialogStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -109,6 +120,7 @@
 
     <TextView
         android:id="@+id/tv_path"
+        style="@style/SongDetailsTitleDialogStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -119,6 +131,7 @@
 
     <TextView
         android:id="@+id/tv_path_description"
+        style="@style/SongDetailsDescriptionDialogStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -127,4 +140,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_path" />
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
