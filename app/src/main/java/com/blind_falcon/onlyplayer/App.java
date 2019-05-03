@@ -1,4 +1,4 @@
-package com.blind_falcon;
+package com.blind_falcon.onlyplayer;
 
 import android.app.Application;
 
