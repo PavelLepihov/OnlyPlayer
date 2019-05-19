@@ -32,6 +32,14 @@
     <string name="song_details_size">Размер файла</string>
     <string name="song_details_path">Путь к файлу</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Tab titles-->
+    <string name="song_list_title">Песни</string>
+    <string name="artist_list_title">Исполнители</string>
+    <string name="album_list_title">Альбомы</string>
+
+    <!--Permission dialog-->
+    <string name="dialog_title">Внимание!</string>
+    <string name="dialog_message">Вы не предоставили разрешение. Работа плеера не возможна.</string>
+    <string name="dialog_button_positive">Предоставить</string>
+    <string name="dialog_button_negative">Закрыть</string>
 </resources>

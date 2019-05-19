@@ -5,10 +5,10 @@
     <dimen name="item_song_list_icon_width">48dp</dimen>
     <dimen name="item_song_list_menu_height">48dp</dimen>
     <dimen name="item_song_list_menu_width">48dp</dimen>
-    <dimen name="item_song_list_icon_lma">4dp</dimen>
+    <dimen name="item_song_list_icon_lma">2dp</dimen>
     <dimen name="item_song_list_menu_lpa">4dp</dimen>
     <dimen name="item_song_list_time_lma">2dp</dimen>
-    <dimen name="item_song_list_time_size">18sp</dimen>
+    <dimen name="item_song_list_time_size">12sp</dimen>
 
     <dimen name="item_bottom_current_song_height">64dp</dimen>
     <dimen name="item_bottom_current_song_play_height">48dp</dimen>
@@ -21,10 +21,10 @@
     <dimen name="item_bottom_current_song_icon_width">48dp</dimen>
     <dimen name="item_bottom_current_song_all_lmt">24dp</dimen>
 
-    <dimen name="item_song_info_container_lma">4dp</dimen>
+    <dimen name="item_song_info_container_lma">2dp</dimen>
     <dimen name="item_song_info_container_lpl">12dp</dimen>
-    <dimen name="item_song_info_container_song_title_size">18sp</dimen>
-    <dimen name="item_song_info_container_song_artist_size">14sp</dimen>
+    <dimen name="item_song_info_container_song_title_size">14sp</dimen>
+    <dimen name="item_song_info_container_song_artist_size">12sp</dimen>
 
     <dimen name="item_notification_big_image_height">64dp</dimen>
     <dimen name="item_notification_big_layout_height">112dp</dimen>

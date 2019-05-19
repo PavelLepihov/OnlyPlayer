@@ -6,13 +6,13 @@ public class Song {
     private Album album;
     private int bitrate;
     private long playTime;
-    private int fileSize;
+    private String fileSize;
     private String filePath;
 
     private Song(Builder builder) {
         this.title = builder.title;
-        this.artist = builder.artist;
-        this.album = builder.album;
+        this.artist = builder.artist != null ? builder.artist : new Artist(null, null);
+        this.album = builder.album != null ? builder.album : new Album(null, null, null);
         this.bitrate = builder.bitrate;
         this.playTime = builder.playTime;
         this.fileSize = builder.fileSize;
@@ -39,7 +39,7 @@ public class Song {
         return playTime;
     }
 
-    public int getFileSize() {
+    public String getFileSize() {
         return fileSize;
     }
 
@@ -53,7 +53,7 @@ public class Song {
         private Album album;
         private int bitrate;
         private long playTime;
-        private int fileSize;
+        private String fileSize;
         private String filePath;
 
         public Builder(String title) {
@@ -80,7 +80,7 @@ public class Song {
             return this;
         }
 
-        public Builder setFilesize(int fileSize) {
+        public Builder setFilesize(String fileSize) {
             this.fileSize = fileSize;
             return this;
         }

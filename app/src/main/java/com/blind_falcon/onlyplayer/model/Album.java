@@ -3,10 +3,13 @@ package com.blind_falcon.onlyplayer.model;
 public class Album {
     private String title;
     private String cover;
-    private int yearOfRelease;
+    private String yearOfRelease;
 
-    public Album(String title) {
-        this.title = title;
+    public Album(String title, String cover, String yearOfRelease) {
+        //TODO: remove with resources
+        this.title = title != null ? title : "Unknown album";
+        this.cover = cover;
+        this.yearOfRelease = yearOfRelease != null ? yearOfRelease : "";
     }
 
     public String getTitle() {
@@ -17,15 +20,7 @@ public class Album {
         return cover;
     }
 
-    public void setCover(String cover) {
-        this.cover = cover;
-    }
-
-    public int getYearOfRelease() {
+    public String getYearOfRelease() {
         return yearOfRelease;
-    }
-
-    public void setYearOfRelease(int yearOfRelease) {
-        this.yearOfRelease = yearOfRelease;
     }
 }

@@ -1,15 +1,17 @@
 package com.blind_falcon.onlyplayer;
 
-import com.blind_falcon.onlyplayer.ui.flow.details.DetailsFlowFragment;
-import com.blind_falcon.onlyplayer.ui.flow.details.SongDetailsFragment;
+import androidx.fragment.app.Fragment;
+
+import com.blind_falcon.onlyplayer.ui.flow.main.MainAlbumListFragment;
+import com.blind_falcon.onlyplayer.ui.flow.main.MainArtistListFragment;
 import com.blind_falcon.onlyplayer.ui.flow.main.MainFlowFragment;
 import com.blind_falcon.onlyplayer.ui.flow.main.MainSongListFragment;
 import com.blind_falcon.onlyplayer.ui.flow.settings.SettingsFlowFragment;
 import com.blind_falcon.onlyplayer.ui.flow.settings.SettingsFragment;
 import com.blind_falcon.onlyplayer.ui.flow.song.PlaybackSongFragment;
+import com.blind_falcon.onlyplayer.ui.flow.song.SongDetailsFragment;
 import com.blind_falcon.onlyplayer.ui.flow.song.SongFlowFragment;
 
-import androidx.fragment.app.Fragment;
 import ru.terrakok.cicerone.android.support.SupportAppScreen;
 
 public class Screens {
@@ -27,17 +29,17 @@ public class Screens {
         }
     }
 
-    public static final class DetailsFlowScreen extends SupportAppScreen {
+    public static final class MainAlbumListScreen extends SupportAppScreen {
         @Override
         public Fragment getFragment() {
-            return new DetailsFlowFragment();
+            return new MainAlbumListFragment();
         }
     }
 
-    public static final class SongDetailsScreen extends SupportAppScreen {
+    public static final class MainArtistListScreen extends SupportAppScreen {
         @Override
         public Fragment getFragment() {
-            return new SongDetailsFragment();
+            return new MainArtistListFragment();
         }
     }
 
@@ -52,6 +54,13 @@ public class Screens {
         @Override
         public Fragment getFragment() {
             return new PlaybackSongFragment();
+        }
+    }
+
+    public static final class SongDetailsScreen extends SupportAppScreen {
+        @Override
+        public Fragment getFragment() {
+            return new SongDetailsFragment();
         }
     }
 

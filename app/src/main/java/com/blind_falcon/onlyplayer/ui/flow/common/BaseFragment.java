@@ -6,10 +6,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.arellomobile.mvp.MvpAppCompatFragment;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import com.arellomobile.mvp.MvpAppCompatFragment;
 
 public abstract class BaseFragment extends MvpAppCompatFragment {
 
@@ -21,4 +21,5 @@ public abstract class BaseFragment extends MvpAppCompatFragment {
                              @Nullable Bundle savedInstanceState) {
         return inflater.inflate(getContentLayout(), container, false);
     }
+
 }
